@@ -1,14 +1,13 @@
 import Head from 'next/head';
-import Button from '../../components/Button';
+import NavBar from '../../components/NavBar';
 
 const SignInPage = () => {
   return (
     <div>
       <Head>
         <title>Sign In | Noobium</title>
-        <h1>ini sign in</h1>
       </Head>
-      <Button>Sign In</Button>
+      <NavBar />
     </div>
   );
 };
